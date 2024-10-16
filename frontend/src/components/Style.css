@@ -1,0 +1,208 @@
+/* Styles.css */
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #7338a0; /* Light background color */
+  padding: 40px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: flex;
+  gap: 20px;
+}
+
+.logo h1 {
+  font-size: 24px;
+  color: #fff; /* Darker color for contrast */
+  margin: 0;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navItem {
+  margin-right: 20px;
+}
+
+.navItem a {
+  text-decoration: none;
+  color: #fff; /* Text color */
+  font-size: 18px; /* Reasonably sized text */
+  transition: color 0.3s;
+}
+
+.navItem a:hover {
+  color: #924dbf; /* Hover effect */
+}
+
+.navbar-right {
+  display: flex;
+}
+
+.logoutButton {
+  background-color: #4a2574; /* Logout button background */
+  color: white; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px; /* Reasonably sized text */
+  transition: background-color 0.3s;
+}
+
+.logoutButton:hover {
+  background-color: #4a2574; /* Darker shade on hover */
+}
+
+/* Login Styles */
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 120px);
+}
+
+.login-container {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 350px; /* Set a max width for the form */
+  text-align: center;
+}
+
+.login-title {
+  font-size: 2rem;
+  color: #924dbf; /* Primary color for the title */
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-input {
+  border: 1px solid #e0e0e0; /* Light border for inputs */
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.login-input:focus {
+  border-color: #924dbf; /* Highlight border on focus */
+  outline: none; /* Remove default outline */
+}
+
+.login-button {
+  background-color: #9e72c3; /* Button background color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  background-color: #7338a0; /* Darker shade on hover */
+}
+
+.error-message {
+  color: #924dbf; /* Error message color */
+  margin: 10px 0;
+}
+
+.register-link {
+  color: #4a2574; /* Color for the register link */
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.register-link:hover {
+  text-decoration: underline; /* Underline on hover for clarity */
+}
+
+/* Register Styles */
+.register-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 120px);
+}
+
+.register-container {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 350px; /* Set a max width for the form */
+  text-align: center;
+}
+
+.register-title {
+  font-size: 2rem;
+  color: #924dbf; /* Primary color for the title */
+  margin-bottom: 20px;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-input {
+  border: 1px solid #e0e0e0; /* Light border for inputs */
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.register-input:focus {
+  border-color: #924dbf; /* Highlight border on focus */
+  outline: none; /* Remove default outline */
+}
+
+.register-button {
+  background-color: #9e72c3; /* Button background color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.register-button:hover {
+  background-color: #7338a0; /* Darker shade on hover */
+}
+
+.success-message {
+  color: #4caf50; /* Color for success messages */
+  margin: 10px 0;
+}
+
+.login-link {
+  color: #4a2574; /* Color for the login link */
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.login-link:hover {
+  text-decoration: underline; /* Underline on hover for clarity */
+}
