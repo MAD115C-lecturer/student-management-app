@@ -1,4 +1,4 @@
-![Screenshot 2024-10-16 145221](https://github.com/user-attachments/assets/048b3d33-8765-40e0-93d2-729d8ae59e9f)
+![Authentication Page](https://github.com/user-attachments/assets/d4614a8a-c1e2-4a3a-b9df-4179bcd97959)
 
 ### GitHub Project Description
 > **Student Management Application**  
